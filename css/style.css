@@ -10,3 +10,46 @@
 .images {
     text-align: center;
 }
+
+.immagine {    
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/*MAIN*/
+
+/*about*/
+.about {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightgreen;
+}
+.title {
+    text-align: center;
+}
+
+/*contact*/
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* FOOTER*/
+
+.first-footer {
+    background-color: navy;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.second-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
