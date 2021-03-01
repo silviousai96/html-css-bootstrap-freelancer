@@ -1,0 +1,12 @@
+/* HEADER */
+
+.jumbotron { 
+    text-align: center;
+    /*test*/
+    height: 400px;
+    background-color: lightgreen;
+}
+
+.images {
+    text-align: center;
+}
