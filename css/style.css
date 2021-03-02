@@ -14,6 +14,26 @@
     margin-bottom: 20px;
 }
 
+.star::before {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    border-bottom: 3px solid;    
+    border-radius: 20px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.star::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    border-bottom: 3px solid;    
+    border-radius: 20px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
 .small-container {
     width: 60%;
     max-width: 900px;
