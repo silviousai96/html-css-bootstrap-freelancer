@@ -1,29 +1,74 @@
+/*COMMON*/
+.section-padding {
+    padding: 40px 0;
+}
+
+.green-section {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.star {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* HEADER */
-
-.jumbotron { 
-    text-align: center;
-    /*test*/
-    height: 400px;
-    background-color: lightgreen;
+/*Nav*/
+nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
 }
 
-.images {
-    text-align: center;
+nav span {
+    font-size: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
-.immagine {    
-    height: 50px;
-    background-color: red;
-    border: 1px solid black;
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.burger-menu {
+    color: white;
+    font-size: 25px;
+}
+/* jumbotron */
+
+.jumbotron img { 
+    height: 200px;
 }
 
 /*MAIN*/
+/* images */
+
+.box-image {        
+    margin-bottom: 20px;
+    
+}
+
+.box-image img {
+    border-radius: 10px;
+}
+
 
 /*about*/
 .about {
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    
     background-color: lightgreen;
 }
 .title {

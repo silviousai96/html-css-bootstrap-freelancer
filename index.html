@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>bootstrap</title>
@@ -14,76 +15,112 @@
         <nav>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8">
-                        <h3>START BOOTSTRAP</h3>
-                    </div>
-                    <div class="hidden-xs col-sm-4 col-md-4">
-                        <h3>menu</h3>
+                    
+                    <div class="col-xs-6 ">
+                        <span>START BOOTSTRAP</span>
                     </div>
 
-                    <div class="col-xs-4 hidden-sm hidden-md hidden-lg ">
-                        <div class="burger-menu">
-                            <h3>burger</h3>
+                    <div class="col-xs-6">
+                        <div class="hidden-xs">
+                            <div class="text-right">
+                                <ul class="menu">
+
+                                    <li>
+                                        <a href="#">PORTFOLIO</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">ABOUT</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">CONTACT</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="visible-xs-block ">
+                            <div class="burger-menu text-right">
+                                <i class="fas fa-bars"></i>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </nav>
 
-        <div class="jumbotron">
+        <div class="jumbotron green-section section-padding text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <img src="" alt="">
-                        <h1>Start bootstrap</h1>
-                        <span>&star;</span>
-                        <h3>lorem ipsum lorem ipsum</h3>
+                    <div class="col-xs-12">
+                        <img src="img/avatar.svg" alt="">
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="star"><i class="fas fa-star"></i></div>
+                        <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <!--FINE HEADER-->
 
     <!--INIZIO MAIN-->
     <main>
-        <section class="images">
+        <section class="images section-padding text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <h2>PORTFOLIO</h2>
-                        <span>&star;</span>
+                        <div class="star"><i class="fas fa-star"></i></div>
                     </div>
                 </div>
                 
-                <div class="row">
-                    
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/cabin.png" alt="">
                     </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="immagine"></div>
-                    </div>
-                   
                 </div>
 
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/cake.png" alt="">
+                    </div>
+                </div>
+
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/circus.png" alt="">
+                    </div>
+                </div>
+
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/game.png" alt="">
+                    </div>
+                </div>
+
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/safe.png" alt="">
+                    </div>
+                </div>
+
+                <!--Single image-->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-image">
+                        <img class="img-responsive" src="img/submarine.png" alt="">
+                    </div>
+                </div>
+                                                         
             </div>
         </section>
 
@@ -120,7 +157,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="title">
-                            <h2>ABOUT</h2>
+                            <h2>CONTACT ME</h2>
                             <span>&star;</span>
                         </div>
                     </div>
