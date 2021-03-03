@@ -1,4 +1,5 @@
 /*COMMON*/
+
 .section-padding {
     padding: 40px 0;
 }
@@ -81,7 +82,8 @@ nav li a {
 /* jumbotron */
 
 .jumbotron img { 
-    height: 200px;
+    width: 20%;
+    min-width: 200px;
 }
 
 /*MAIN*/
@@ -117,6 +119,12 @@ nav li a {
     padding: 20px;
 }
 
+.contact-form input::placeholder,  /* per cambiare il colore del testo placeholder*/
+.contact-form textarea::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
 
 /* FOOTER*/
 footer {
@@ -133,6 +141,7 @@ footer {
 
 .social-list {
     list-style-type: none;
+    
 }
 
 .social-list li {
